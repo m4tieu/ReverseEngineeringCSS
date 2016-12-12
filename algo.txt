@@ -1,0 +1,48 @@
+var tableau = {1,7,12,16,22,42};
+var longueurDuTab = tableau.lenght;
+var findNumber = 12;
+var flag = FALSE
+var i = 0;
+
+TANT QUE i < longueurDuTab
+
+    SI tableau[i] == findNumber;
+
+        alors flag = TRUE;
+
+    SINON i++ 
+
+FIN TANT QUE
+    SI flag = TRUE on sort
+
+
+***************************************************************************
+
+
+12/12/2016
+var actualYear = 2016
+var actualMounth = 12
+var actualDay = 12
+
+20/10/1979
+var brithYear = 1979
+var brithMounht = 10
+var brithDay = 28
+
+
+Determiner l'age du capitaine : 28/11/1989
+
+Fianalement c'est quoi l'age ?
+
+var age actualYear - bithYear;
+
+SI actualMonth < bithMonth // on teste les mois 
+	ALORS
+		age - age -1;
+SINON SI actualMonth == birthMonth
+	ALORS 
+		SI actualDay < birthDay // on teste les jours
+			ALORS
+				age = age -1;
+		FIN SI
+FIN SI
